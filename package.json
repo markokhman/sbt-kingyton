@@ -1,11 +1,12 @@
 {
-  "name": "nft-jetton-sale-smc",
+  "name": "happy-new-year-sbt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "yarn jest",
-    "compile": "yarn ts-node scripts/compile.ts"
+    "compile": "yarn ts-node scripts/compile.ts",
+    "deploy": "yarn ts-node src/VudiDeployCollection.ts",
+    "mint": "yarn ts-node src/VudiMintItem.ts"
   },
   "repository": {
     "type": "git",
