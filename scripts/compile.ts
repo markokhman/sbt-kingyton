@@ -14,6 +14,7 @@ import { combineFunc } from "./utils/combineFunc";
 export const VudiNewYearCollection = () => {
   return combineFunc(__dirname, [
     "./contract/stdlib.fc",
+    "./contract/params.fc",
     "./contract/op-codes.fc",
     "./contract/nft-collection.fc",
   ]);
@@ -29,6 +30,7 @@ export const VudiNewYearCollectionCodeCell = Cell.fromBoc(
 export const VudiNewYearItem = () => {
   return combineFunc(__dirname, [
     "./contract/stdlib.fc",
+    "./contract/params.fc",
     "./contract/op-codes.fc",
     "./contract/sbt-item.fc",
   ]);
